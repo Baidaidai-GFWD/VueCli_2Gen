@@ -1,10 +1,14 @@
 <template>
   <div id="app">
+    <!--固定不动的导航栏区域-->
     <nav>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
+      <span> | </span>
       <router-link to="/about">About</router-link>
     </nav>
-    <router-view/>
+    <!--写在views里的可变vue文件-->
+    <router-view>
+    </router-view>
   </div>
 </template>
 
