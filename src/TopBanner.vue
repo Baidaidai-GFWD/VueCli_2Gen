@@ -12,7 +12,8 @@
   </div>
 </template>
 
-<style>
+<!--Style未添加scoped，会渗透到子组件去-->
+<style>  
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
