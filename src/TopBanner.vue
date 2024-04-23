@@ -13,7 +13,7 @@
 </template>
 
 <!--Style未添加scoped，会渗透到子组件去-->
-<style>  
+<style scoped>  
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
